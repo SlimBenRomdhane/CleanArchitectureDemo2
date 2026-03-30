@@ -1,1 +1,7 @@
-<Solution />
+<Solution>
+  <Folder Name="/CleanArchitecture.Application/" />
+  <Folder Name="/CleanArchitecture.Data/" />
+  <Folder Name="/CleanArchitecture.Domain/" />
+  <Folder Name="/CleanArchitecture.Infra.IoC/" />
+  <Folder Name="/CleanArchitecture.UI.Mvc/" />
+</Solution>
