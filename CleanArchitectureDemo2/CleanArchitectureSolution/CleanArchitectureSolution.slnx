@@ -3,5 +3,7 @@
   <Folder Name="/CleanArchitecture.Data/" />
   <Folder Name="/CleanArchitecture.Domain/" />
   <Folder Name="/CleanArchitecture.Infra.IoC/" />
-  <Folder Name="/CleanArchitecture.UI.Mvc/" />
+  <Folder Name="/CleanArchitecture.UI.Mvc/">
+    <Project Path="CleanArchitecture.Mvc/CleanArchitecture.Mvc.csproj" Id="9bffad68-c271-48f4-9872-b69037d3daf1" />
+  </Folder>
 </Solution>
