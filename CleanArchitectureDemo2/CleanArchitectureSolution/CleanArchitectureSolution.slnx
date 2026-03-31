@@ -1,9 +1,11 @@
 <Solution>
-  <Folder Name="/CleanArchitecture.Application/" />
-  <Folder Name="/CleanArchitecture.Data/" />
-  <Folder Name="/CleanArchitecture.Domain/" />
-  <Folder Name="/CleanArchitecture.Infra.IoC/" />
-  <Folder Name="/CleanArchitecture.UI.Mvc/">
+  <Folder Name="/Application/" />
+  <Folder Name="/Domain/">
+    <Project Path="CleanArchitecture.Domain/CleanArchitecture.Domain.csproj" Id="7ab284bd-e3c9-419a-9709-86abc290ef98" />
+  </Folder>
+  <Folder Name="/Infra.Data/" />
+  <Folder Name="/Infra.IoC/" />
+  <Folder Name="/Presentation/">
     <Project Path="CleanArchitecture.Mvc/CleanArchitecture.Mvc.csproj" Id="9bffad68-c271-48f4-9872-b69037d3daf1" />
   </Folder>
 </Solution>
