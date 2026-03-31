@@ -3,7 +3,9 @@
   <Folder Name="/Domain/">
     <Project Path="CleanArchitecture.Domain/CleanArchitecture.Domain.csproj" Id="7ab284bd-e3c9-419a-9709-86abc290ef98" />
   </Folder>
-  <Folder Name="/Infra.Data/" />
+  <Folder Name="/Infra.Data/">
+    <Project Path="CleanArchitecture.Infa.Data/CleanArchitecture.Infa.Data.csproj" Id="22bd9a05-3f70-44d4-a33f-a5357709f680" />
+  </Folder>
   <Folder Name="/Infra.IoC/" />
   <Folder Name="/Presentation/">
     <Project Path="CleanArchitecture.Mvc/CleanArchitecture.Mvc.csproj" Id="9bffad68-c271-48f4-9872-b69037d3daf1" />
