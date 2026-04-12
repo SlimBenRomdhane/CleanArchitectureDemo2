@@ -2,6 +2,7 @@ using CleanArchitecture.Infa.Data.Context;
 using CleanArchitecture.Mvc.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using CleanArchitecture.Infra.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+// Register application services and repositories
+DependencyContainer.RegisterServices(builder.Services);
 
 var app = builder.Build();
 
