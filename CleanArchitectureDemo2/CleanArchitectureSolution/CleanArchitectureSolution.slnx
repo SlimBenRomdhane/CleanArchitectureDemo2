@@ -8,7 +8,9 @@
   <Folder Name="/Infra.Data/">
     <Project Path="CleanArchitecture.Infa.Data/CleanArchitecture.Infa.Data.csproj" Id="22bd9a05-3f70-44d4-a33f-a5357709f680" />
   </Folder>
-  <Folder Name="/Infra.IoC/" />
+  <Folder Name="/Infra.IoC/">
+    <Project Path="CleanArchitecture.Infra.IoC/CleanArchitecture.Infra.IoC.csproj" Id="de9cb939-3e73-475b-979c-e0ba8556fb99" />
+  </Folder>
   <Folder Name="/Presentation/">
     <Project Path="CleanArchitecture.Mvc/CleanArchitecture.Mvc.csproj" Id="9bffad68-c271-48f4-9872-b69037d3daf1" />
   </Folder>
