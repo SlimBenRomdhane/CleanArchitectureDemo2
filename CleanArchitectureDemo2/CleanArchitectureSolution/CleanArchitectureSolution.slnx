@@ -1,10 +1,12 @@
 <Solution>
+  <Folder Name="/Api/" />
   <Folder Name="/Application/">
     <Project Path="CleanArchitecture.Application/CleanArchitecture.Application.csproj" Id="0afcb696-e3b5-4a32-9996-2fc855520a05" />
   </Folder>
   <Folder Name="/Domain/">
     <Project Path="CleanArchitecture.Domain/CleanArchitecture.Domain.csproj" Id="7ab284bd-e3c9-419a-9709-86abc290ef98" />
   </Folder>
+  <Folder Name="/Infra.Bus/" />
   <Folder Name="/Infra.Data/">
     <Project Path="CleanArchitecture.Infa.Data/CleanArchitecture.Infa.Data.csproj" Id="22bd9a05-3f70-44d4-a33f-a5357709f680" />
   </Folder>
