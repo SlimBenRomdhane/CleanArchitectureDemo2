@@ -4,6 +4,7 @@
     <Project Path="CleanArchitecture.Application/CleanArchitecture.Application.csproj" Id="0afcb696-e3b5-4a32-9996-2fc855520a05" />
   </Folder>
   <Folder Name="/Domain/">
+    <Project Path="CleanArchitecture.Domain.Core/CleanArchitecture.Domain.Core.csproj" Id="97c180d3-236a-4ad3-86ef-83e73801879b" />
     <Project Path="CleanArchitecture.Domain/CleanArchitecture.Domain.csproj" Id="7ab284bd-e3c9-419a-9709-86abc290ef98" />
   </Folder>
   <Folder Name="/Infra.Bus/">
